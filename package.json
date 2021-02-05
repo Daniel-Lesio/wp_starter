@@ -1,0 +1,36 @@
+{
+  "name": "m2m3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "watch": "parcel watch src/index.tsx src/styles.scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
+    "parcel": "^2.0.0-beta.1",
+    "parcel-plugin-html-partials": "0.0.6",
+    "posthtml-include": "^1.6.0",
+    "posthtml-modules": "^0.7.3",
+    "posthtml-obfuscate": "^0.1.5",
+    "sass": "^1.32.6"
+  },
+  "dependencies": {
+    "@types/react-dom": "^17.0.0",
+    "bootstrap-4-grid": "^3.4.0",
+    "jump.js": "^1.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sal.js": "^0.8.3"
+  },
+  "targets": {
+    "app": {
+      "distDir": "dist"
+    }
+  }
+}

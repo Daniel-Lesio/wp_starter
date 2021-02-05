@@ -1,0 +1,15 @@
+.preloader{
+    z-index: 99;
+    background: white;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    transition: all ease-in-out .3s;
+    &-hide{
+        opacity: 0;
+        transform: translateX(-100vw);
+    }
+}

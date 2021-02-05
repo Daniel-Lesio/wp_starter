@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap");
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #972355;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h4 {
+  font-family: "Merriweather", serif;
+  color: #141B2D;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Merriweather", serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h6 {
+  font-family: "Merriweather", serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.subheadline {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.testie {
+  background: #972355;
+}
+
+.preloader {
+  z-index: 99;
+  background: white;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+}
+.preloader-hide {
+  opacity: 0;
+  transform: translateX(-100vw);
+}
+
+body {
+  min-height: 200vh;
+  overflow-x: hidden;
+}
+
+.indicator-container {
+  z-index: 33;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 2px;
+  background: #E4F5EB;
+}
+.indicator-container .indicator {
+  height: 2px;
+  background: #972355;
+}
+
+.center {
+  position: relative;
+}
+.center .vv {
+  position: absolute;
+}
+/*# sourceMappingURL=index.css.map */

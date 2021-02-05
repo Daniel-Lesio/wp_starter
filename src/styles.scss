@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+@import './styles/variables';
+@import './styles/base';
+@import './styles/preloader';
+
+body{
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+.indicator-container{
+    z-index: 33;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 2px;
+    background: $secondary;
+
+    .indicator{        
+        height: 2px;
+        background: $primary;
+    }
+
+}
+
+
+.center{
+    position: relative;
+    .vv{
+        position: absolute;
+    }
+}
